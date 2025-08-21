@@ -28,6 +28,7 @@ Example:
 "ConnectionStrings": {
   "DefaultConnection": "Server=localhost;Database=REBrokerDB;User Id=sa;Password=YourStrongPassword;TrustServerCertificate=True;"
 }
+```
 
 3. **Update Database**
 - Open Package Manager Console and run: update-database
