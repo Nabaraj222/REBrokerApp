@@ -31,4 +31,4 @@ Example:
 ```
 
 3. **Update Database**
-- Open Package Manager Console and run: update-database
+- Open Package Manager Console and run: `update-database`
