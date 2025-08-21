@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("REBrokerApp.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5dfd73f13ef91e4889ae82b2f02dbbddc2dfa2ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("REBrokerApp.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("REBrokerApp.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

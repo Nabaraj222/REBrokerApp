@@ -21,3 +21,16 @@ C:\Users\Lenovo\Desktop\New folder\REBrokerApp\REBrokerApp\REBrokerApp.Domain\ob
 C:\Users\Lenovo\Desktop\New folder\REBrokerApp\REBrokerApp\REBrokerApp.Domain\obj\Debug\net8.0\refint\REBrokerApp.Domain.dll
 C:\Users\Lenovo\Desktop\New folder\REBrokerApp\REBrokerApp\REBrokerApp.Domain\obj\Debug\net8.0\REBrokerApp.Domain.pdb
 C:\Users\Lenovo\Desktop\New folder\REBrokerApp\REBrokerApp\REBrokerApp.Domain\obj\Debug\net8.0\ref\REBrokerApp.Domain.dll
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Domain\bin\Debug\net8.0\REBrokerApp.Domain.deps.json
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Domain\bin\Debug\net8.0\REBrokerApp.Domain.dll
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Domain\bin\Debug\net8.0\REBrokerApp.Domain.pdb
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Domain\obj\Debug\net8.0\REBrokerApp.Domain.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Domain\obj\Debug\net8.0\REBrokerApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Domain\obj\Debug\net8.0\REBrokerApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Domain\obj\Debug\net8.0\REBrokerApp.Domain.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Domain\obj\Debug\net8.0\REBrokerApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Domain\obj\Debug\net8.0\REBrokerApp.Domain.sourcelink.json
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Domain\obj\Debug\net8.0\REBrokerApp.Domain.dll
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Domain\obj\Debug\net8.0\refint\REBrokerApp.Domain.dll
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Domain\obj\Debug\net8.0\REBrokerApp.Domain.pdb
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Domain\obj\Debug\net8.0\ref\REBrokerApp.Domain.dll

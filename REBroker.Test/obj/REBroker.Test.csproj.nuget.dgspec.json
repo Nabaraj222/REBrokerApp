@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBroker.Test\\REBroker.Test.csproj": {}
+    "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBroker.Test\\REBroker.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBroker.Test\\REBroker.Test.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBroker.Test\\REBroker.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBroker.Test\\REBroker.Test.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBroker.Test\\REBroker.Test.csproj",
         "projectName": "REBroker.Test",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBroker.Test\\REBroker.Test.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBroker.Test\\REBroker.Test.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBroker.Test\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBroker.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.MVC\\REBrokerApp.Web.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.MVC\\REBrokerApp.Web.csproj"
+              "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\REBrokerApp.Web.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\REBrokerApp.Web.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Business\\REBrokerApp.Business.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Business\\REBrokerApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Business\\REBrokerApp.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Business\\REBrokerApp.Business.csproj",
         "projectName": "REBrokerApp.Business",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Business\\REBrokerApp.Business.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Business\\REBrokerApp.Business.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Business\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -127,11 +127,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Domain\\REBrokerApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Domain\\REBrokerApp.Domain.csproj"
+              "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\REBrokerApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\REBrokerApp.Domain.csproj"
               },
-              "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Infrastructure\\REBrokerApp.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Infrastructure\\REBrokerApp.Infrastructure.csproj"
+              "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\REBrokerApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\REBrokerApp.Infrastructure.csproj"
               }
             }
           }
@@ -171,14 +171,14 @@
         }
       }
     },
-    "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Domain\\REBrokerApp.Domain.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\REBrokerApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Domain\\REBrokerApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\REBrokerApp.Domain.csproj",
         "projectName": "REBrokerApp.Domain",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Domain\\REBrokerApp.Domain.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\REBrokerApp.Domain.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -250,14 +250,14 @@
         }
       }
     },
-    "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Infrastructure\\REBrokerApp.Infrastructure.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\REBrokerApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Infrastructure\\REBrokerApp.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\REBrokerApp.Infrastructure.csproj",
         "projectName": "REBrokerApp.Infrastructure",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Infrastructure\\REBrokerApp.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\REBrokerApp.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -278,8 +278,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Domain\\REBrokerApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Domain\\REBrokerApp.Domain.csproj"
+              "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\REBrokerApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\REBrokerApp.Domain.csproj"
               }
             }
           }
@@ -329,14 +329,14 @@
         }
       }
     },
-    "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.MVC\\REBrokerApp.Web.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\REBrokerApp.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.MVC\\REBrokerApp.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\REBrokerApp.Web.csproj",
         "projectName": "REBrokerApp.Web",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.MVC\\REBrokerApp.Web.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\REBrokerApp.Web.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.MVC\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -357,11 +357,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Business\\REBrokerApp.Business.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Business\\REBrokerApp.Business.csproj"
+              "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Business\\REBrokerApp.Business.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Business\\REBrokerApp.Business.csproj"
               },
-              "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Infrastructure\\REBrokerApp.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Infrastructure\\REBrokerApp.Infrastructure.csproj"
+              "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\REBrokerApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\REBrokerApp.Infrastructure.csproj"
               }
             }
           }

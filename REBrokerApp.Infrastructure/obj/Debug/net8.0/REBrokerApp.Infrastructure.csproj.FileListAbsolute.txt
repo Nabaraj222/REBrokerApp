@@ -28,3 +28,19 @@ C:\Users\Lenovo\Desktop\New folder\REBrokerApp\REBrokerApp\REBrokerApp.Infrastru
 C:\Users\Lenovo\Desktop\New folder\REBrokerApp\REBrokerApp\REBrokerApp.Infrastructure\obj\Debug\net8.0\refint\REBrokerApp.Infrastructure.dll
 C:\Users\Lenovo\Desktop\New folder\REBrokerApp\REBrokerApp\REBrokerApp.Infrastructure\obj\Debug\net8.0\REBrokerApp.Infrastructure.pdb
 C:\Users\Lenovo\Desktop\New folder\REBrokerApp\REBrokerApp\REBrokerApp.Infrastructure\obj\Debug\net8.0\ref\REBrokerApp.Infrastructure.dll
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Infrastructure\bin\Debug\net8.0\REBrokerApp.Infrastructure.deps.json
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Infrastructure\bin\Debug\net8.0\REBrokerApp.Infrastructure.dll
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Infrastructure\bin\Debug\net8.0\REBrokerApp.Infrastructure.pdb
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Infrastructure\bin\Debug\net8.0\REBrokerApp.Domain.dll
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Infrastructure\bin\Debug\net8.0\REBrokerApp.Domain.pdb
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Infrastructure\obj\Debug\net8.0\REBrokerApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Infrastructure\obj\Debug\net8.0\REBrokerApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Infrastructure\obj\Debug\net8.0\REBrokerApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Infrastructure\obj\Debug\net8.0\REBrokerApp.Infrastructure.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Infrastructure\obj\Debug\net8.0\REBrokerApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Infrastructure\obj\Debug\net8.0\REBrokerApp.Infrastructure.sourcelink.json
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Infrastructure\obj\Debug\net8.0\REBroker.4DA85D4D.Up2Date
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Infrastructure\obj\Debug\net8.0\REBrokerApp.Infrastructure.dll
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Infrastructure\obj\Debug\net8.0\refint\REBrokerApp.Infrastructure.dll
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Infrastructure\obj\Debug\net8.0\REBrokerApp.Infrastructure.pdb
+C:\Users\Lenovo\Desktop\REBrokerApp\REBrokerApp.Infrastructure\obj\Debug\net8.0\ref\REBrokerApp.Infrastructure.dll

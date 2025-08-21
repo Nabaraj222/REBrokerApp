@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7j0g4u4aBEU=",
+  "dgSpecHash": "CGDYJwB9u58=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.API\\REBrokerApp.API.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.API\\REBrokerApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
