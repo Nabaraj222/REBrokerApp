@@ -1,0 +1,148 @@
+﻿@model REBrokerApp.Business.ViewModel.PropertySearchViewModel
+
+@{
+    ViewData["Title"] = "Properties";
+}
+
+<div class="container">
+    <h1><i class="fa-solid fa-house-chimney"></i> Available Properties</h1>
+
+    <!-- Search Form -->
+    <div class="search-container mb-4">
+        <h4><i class="fa-solid fa-search"></i> Search Properties</h4>
+        <form asp-action="Index" method="get" class="row g-3">
+            <div class="col-md-4">
+                <label asp-for="Location" class="form-label"></label>
+                <input asp-for="Location" class="form-control" placeholder="Enter suburb or state" />
+            </div>
+            <div class="col-md-3">
+                <label asp-for="MinPrice" class="form-label"></label>
+                <input asp-for="MinPrice" class="form-control" placeholder="Minimum price" type="number" step="0.01" min="0" />
+            </div>
+            <div class="col-md-3">
+                <label asp-for="MaxPrice" class="form-label"></label>
+                <input asp-for="MaxPrice" class="form-control" placeholder="Maximum price" type="number" step="0.01" min="0" />
+            </div>
+            <div class="col-md-2 d-flex align-items-end">
+                <button type="submit" class="btn btn-primary w-100">
+                    <i class="fa-solid fa-search"></i> Search
+                </button>
+            </div>
+        </form>
+        @if (Model.SearchResults?.Any() == true)
+        {
+            <div class="mt-2">
+                <span class="search-results-count">Found @Model.SearchResults.Count() properties</span>
+                @if (!string.IsNullOrWhiteSpace(Model.Location) || Model.MinPrice.HasValue || Model.MaxPrice.HasValue)
+                {
+                    <a asp-action="Index" class="btn btn-sm btn-outline-secondary ms-2">
+                        <i class="fa-solid fa-xmark"></i> Clear filters
+                    </a>
+                }
+            </div>
+        }
+    </div>
+
+    <div class="text-end mb-3">
+        @if (User.Identity.IsAuthenticated && User.IsInRole("Broker"))
+        {
+            <a asp-action="Create" class="btn btn-primary">
+                <i class="fa-solid fa-plus"></i> Create New
+            </a>
+        }
+    </div>
+
+    <div class="properties-container">
+        @if (Model.SearchResults?.Any() == true)
+        {
+            @foreach (var item in Model.SearchResults)
+        {
+            <div class="property-card">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <i class="fa-solid fa-building"></i> @Html.DisplayFor(modelItem => item.Title)
+                    </h5>
+
+                    <p class="card-text">
+                        <strong>Description:</strong><br />
+                        @if (item.Description?.Length > 100)
+                        {
+                            @item.Description.Substring(0, 100) <text>...</text>
+                        }
+                        else
+                        {
+                            @item.Description
+                        }
+                    </p>
+
+                    <div class="features">
+                        <span><i class="fa-solid fa-bed"></i> @item.BedRooms Bed</span>
+                        <span><i class="fa-solid fa-bath"></i> @item.BathRooms Bath</span>
+                        <span><i class="fa-solid fa-toilet"></i> @item.Toilet Toilet</span>
+                        <span><i class="fa-solid fa-car"></i> @item.CarPark Car Park</span>
+                    </div>
+
+                    <p class="card-price">
+                        <i class="fa-solid fa-dollar-sign"></i> @Html.DisplayFor(modelItem => item.Price)
+                    </p>
+
+                    <p class="card-builder">
+                        <i class="fa-solid fa-user-helmet-safety"></i>
+                        <strong>Builder:</strong> @Html.DisplayFor(modelItem => item.BuilderName)
+                    </p>
+
+                    <p class="created-by">
+                        <i class="fa-solid fa-user-tie"></i>
+                        <strong>Broker:</strong> @Html.DisplayFor(modelItem => item.BrokerName)
+                    </p>
+                    <p class="created-by">
+                        <i class="fa-solid fa-phone"></i>
+                        <strong>Phone:</strong> @Html.DisplayFor(modelItem => item.BrokerPhone)
+                    </p>
+                </div>
+
+                <div class="card-footer">
+                    <div class="card-actions">
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">
+                            <i class="fa-solid fa-eye"></i> View
+                        </a>
+
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            @if (User.IsInRole("Broker"))
+                            {
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-warning">
+                                    <i class="fa-solid fa-pen"></i> Edit
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">
+                                    <i class="fa-solid fa-trash"></i> Delete
+                                </a>
+                            }
+
+                            @if (User.IsInRole("Customer"))
+                            {
+                                <form asp-action="Buy" asp-route-id="@item.Id" method="post" style="display:inline;">
+                                    @Html.AntiForgeryToken()
+                                    <button type="submit" class="btn btn-success btn-sm"
+                                            onclick="return confirm('Are you sure you want to buy this property?');">
+                                        <i class="fa-solid fa-cart-shopping"></i> Buy
+                                    </button>
+                                </form>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+            }
+        }
+        else
+        {
+            <div class="alert alert-info">
+                <i class="fa-solid fa-info-circle"></i> No properties found matching your search criteria.
+            </div>
+        }
+    </div>
+</div>
+
+<link rel="stylesheet" href="~/css/property-index.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />

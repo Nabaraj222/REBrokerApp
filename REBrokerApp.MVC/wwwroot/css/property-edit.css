@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0 15px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    padding: 25px;
+    margin-bottom: 25px;
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+    .card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 24px rgba(0,0,0,0.15);
+    }
+
+h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #007bff;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: 500;
+    color: #444;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: border-color .2s, box-shadow .2s;
+}
+
+    .form-control:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 6px rgba(0,123,255,.25);
+    }
+
+.btn-primary, .btn-secondary {
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: all .3s ease;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+    border: none;
+}
+
+    .btn-primary:hover {
+        transform: scale(1.05);
+        background: linear-gradient(90deg, #0056b3, #0088cc);
+    }
+
+.btn-secondary {
+    background: #6c757d;
+    border: none;
+}
+
+    .btn-secondary:hover {
+        transform: scale(1.05);
+        background: #5a6268;
+    }
+
+.text-muted {
+    font-size: 0.85rem;
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "REBrokerApp.API.Controllers.PropertyController",
+    "Method": "Index",
+    "RelativePath": "Property",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

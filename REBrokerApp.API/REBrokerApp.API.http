@@ -1,0 +1,6 @@
+@REBrokerApp.API_HostAddress = http://localhost:5182
+
+GET {{REBrokerApp.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

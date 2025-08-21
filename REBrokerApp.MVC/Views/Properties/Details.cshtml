@@ -1,0 +1,114 @@
+﻿@using REBrokerApp.Business.ViewModel
+@model PropertyDetailsViewModel
+
+@{
+    ViewData["Title"] = "Property Details";
+}
+
+<div class="container mt-4">
+    <h1><i class="fa-solid fa-house-chimney"></i> @Model.Title</h1>
+
+    <div class="row">
+        <!-- Left: Details -->
+        <div class="col-md-6">
+            <div class="details-card">
+                <dl class="row">
+                    <dt class="col-sm-4"><i class="fa-solid fa-align-left"></i> Description</dt>
+                    <dd class="col-sm-8">@Model.Description</dd>
+
+                    <dt class="col-sm-4"><i class="fa-solid fa-bed"></i> Bedrooms</dt>
+                    <dd class="col-sm-8">@Model.BedRooms</dd>
+
+                    <dt class="col-sm-4"><i class="fa-solid fa-bath"></i> Bathrooms</dt>
+                    <dd class="col-sm-8">@Model.BathRooms</dd>
+
+                    <dt class="col-sm-4"><i class="fa-solid fa-dollar-sign"></i> Price</dt>
+                    <dd class="col-sm-8">@Model.Price.ToString("C")</dd>
+
+                    <dt class="col-sm-4"><i class="fa-solid fa-user-tie"></i> Broker</dt>
+                    <dd class="col-sm-8">@Model.BrokerName</dd>
+
+                    <dt class="col-sm-4"><i class="fa-solid fa-phone"></i> Phone</dt>
+                    <dd class="col-sm-8">@Model.BrokerPhone</dd>
+
+                    <dt class="col-sm-4"><i class="fa-solid fa-location-dot"></i> Location</dt>
+                    <dd class="col-sm-8">
+                        @Model.Address1 @(Model.Address2), @Model.Suburb, @Model.State @Model.PostalCode
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+        <!-- Right: Image Carousel -->
+        <div class="col-md-6">
+            @if (Model.Images.Any())
+            {
+                <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        @for (int i = 0; i < Model.Images.Count; i++)
+                        {
+                            var img = Model.Images[i];
+                            <div class="carousel-item @(i == 0 ? "active" : "")">
+                                <img src="@img.ImageSrc"
+                                     class="d-block w-100"
+                                     alt="@img.AltText"
+                                     style="max-height: 400px; object-fit: cover;" />
+                            </div>
+                        }
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            }
+        </div>
+    </div>
+
+    <!-- Features -->
+    <div class="features-card">
+        <h5><i class="fa-solid fa-star"></i> Features</h5>
+        <p><i class="fa-solid fa-door-open"></i> <strong>Internal:</strong> @Model.Internal</p>
+        <p><i class="fa-solid fa-tree"></i> <strong>External:</strong> @Model.External</p>
+        <p><i class="fa-solid fa-shield-halved"></i> <strong>Security:</strong> @Model.Security</p>
+        <p><i class="fa-solid fa-heart"></i> <strong>Lifestyle:</strong> @Model.LifeStyle</p>
+    </div>
+</div>
+
+<!-- Action buttons -->
+<div class="mt-4 text-center">
+    @if (User.Identity.IsAuthenticated)
+    {
+        @if (User.IsInRole("Broker"))
+        {
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary me-2">
+                <i class="fa-solid fa-pen"></i> Edit
+            </a>
+        }
+
+        @if (User.IsInRole("Customer") && Model.PropertyStatus == "Available")
+        {
+            <form asp-action="Buy" asp-route-id="@Model.Id" method="post" style="display:inline-block; margin-left: 5px;">
+                @Html.AntiForgeryToken()
+                <button type="submit" class="btn btn-success me-2"
+                        onclick="return confirm('Are you sure you want to buy this property?');">
+                    <i class="fa-solid fa-cart-shopping"></i> Buy
+                </button>
+            </form>
+        }
+    }
+    <a asp-action="Index" class="btn btn-secondary">
+        <i class="fa-solid fa-arrow-left"></i> Back to List
+    </a>
+</div>
+
+<link rel="stylesheet" href="~/css/property-details.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+}

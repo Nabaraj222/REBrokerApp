@@ -1,0 +1,154 @@
+@model REBrokerApp.Business.ViewModel.DashboardViewModel
+
+@{
+    ViewData["Title"] = "Broker Dashboard";
+}
+
+<link rel="stylesheet" href="~/css/dashboard.css" asp-append-version="true" />
+
+<style>
+    .dashboard-card {
+        border-radius: 12px;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+        padding: 25px;
+        margin-bottom: 25px;
+        transition: transform .3s ease, box-shadow .3s ease;
+    }
+
+    .dashboard-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 24px rgba(0,0,0,0.15);
+    }
+
+    .stat-card {
+        text-align: center;
+        border-left: 5px solid;
+    }
+
+    .sold-properties {
+        background: linear-gradient(to right, rgba(40, 167, 69, 0.1), white);
+        border-color: #28a745;
+    }
+
+    .available-properties {
+        background: linear-gradient(to right, rgba(0, 123, 255, 0.1), white);
+        border-color: #007bff;
+    }
+
+    .commission {
+        background: linear-gradient(to right, rgba(255, 193, 7, 0.1), white);
+        border-color: #ffc107;
+    }
+
+    .stat-icon {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+
+    .stat-value {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .stat-label {
+        font-size: 1.1rem;
+        color: #6c757d;
+    }
+
+    .commission-table {
+        width: 100%;
+    }
+
+    .commission-table th {
+        color: #007bff;
+        font-weight: 600;
+    }
+    
+    .commission-header {
+        color: #007bff;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+</style>
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">
+        <i class="fa-solid fa-chart-line"></i> Broker Dashboard
+    </h1>
+
+    <!-- Statistics Cards -->
+    <div class="row mb-4">
+        <!-- Properties Sold -->
+        <div class="col-md-4">
+            <div class="dashboard-card stat-card sold-properties">
+                <div class="stat-icon text-success">
+                    <i class="fa-solid fa-house-circle-check"></i>
+                </div>
+                <div class="stat-value">@Model.PropertiesSoldCount</div>
+                <div class="stat-label">Properties Sold</div>
+            </div>
+        </div>
+
+        <!-- Available Properties -->
+        <div class="col-md-4">
+            <div class="dashboard-card stat-card available-properties">
+                <div class="stat-icon text-primary">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <div class="stat-value">@Model.AvailablePropertiesCount</div>
+                <div class="stat-label">Available Properties</div>
+            </div>
+        </div>
+
+        <!-- Total Commission -->
+        <div class="col-md-4">
+            <div class="dashboard-card stat-card commission">
+                <div class="stat-icon text-warning">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                </div>
+                <div class="stat-value">@Model.TotalCommission.ToString("C")</div>
+                <div class="stat-label">Total Commission</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Commissions -->
+    <div class="dashboard-card">
+        <h4 class="commission-header">
+            <i class="fa-solid fa-receipt"></i> Recent Commissions
+        </h4>
+        
+        @if (Model.RecentCommissions.Any())
+        {
+            <div class="table-responsive">
+                <table class="table commission-table">
+                    <thead>
+                        <tr>
+                            <th>Property</th>
+                            <th>Amount</th>
+                            <th>Rate</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var commission in Model.RecentCommissions)
+                        {
+                            <tr>
+                                <td>@commission.PropertyTitle</td>
+                                <td>@commission.Amount.ToString("C")</td>
+                                <td>@commission.Percentage%</td>
+                                <td>@commission.TransactionDate.ToString("MMM dd, yyyy")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <p class="text-muted text-center">No commission records found.</p>
+        }
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />

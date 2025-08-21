@@ -1,0 +1,181 @@
+﻿@using REBrokerApp.Business.ViewModel
+@model PropertyCreateViewModel
+
+@{
+    ViewData["Title"] = "Edit Property";
+}
+
+<h1><i class="fa-solid fa-pen-to-square"></i> Edit Property</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-10 mx-auto">
+        <form asp-action="Edit" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" name="id" id="id" value="@ViewData["PropertyId"]" />
+
+            <!-- Property Details -->
+            <div class="card">
+                <h4><i class="fa-solid fa-house"></i> Property</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Title"></label>
+                            <input asp-for="Title" class="form-control" />
+                            <span asp-validation-for="Title" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Description"></label>
+                            <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="BedRooms"></label>
+                            <input asp-for="BedRooms" class="form-control" />
+                            <span asp-validation-for="BedRooms" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="BathRooms"></label>
+                            <input asp-for="BathRooms" class="form-control" />
+                            <span asp-validation-for="BathRooms" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Toilet"></label>
+                            <input asp-for="Toilet" class="form-control" />
+                            <span asp-validation-for="Toilet" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="CarPark"></label>
+                            <input asp-for="CarPark" class="form-control" />
+                            <span asp-validation-for="CarPark" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Price"></label>
+                            <input asp-for="Price" class="form-control" />
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="BuilderName"></label>
+                            <input asp-for="BuilderName" class="form-control" />
+                            <span asp-validation-for="BuilderName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="BrokerName">Broker Name</label>
+                            <input asp-for="BrokerName" class="form-control" required />
+                            <span asp-validation-for="BrokerName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="BrokerPhone">Broker Phone</label>
+                            <input asp-for="BrokerPhone" class="form-control" required />
+                            <span asp-validation-for="BrokerPhone" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Location -->
+            <div class="card">
+                <h4><i class="fa-solid fa-location-dot"></i> Location</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Address1"></label>
+                            <input asp-for="Address1" class="form-control" />
+                            <span asp-validation-for="Address1" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Address2"></label>
+                            <input asp-for="Address2" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Suburb"></label>
+                            <input asp-for="Suburb" class="form-control" />
+                            <span asp-validation-for="Suburb" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="State"></label>
+                            <input asp-for="State" class="form-control" />
+                            <span asp-validation-for="State" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="PostalCode"></label>
+                            <input asp-for="PostalCode" class="form-control" />
+                            <span asp-validation-for="PostalCode" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Latitude"></label>
+                            <input asp-for="Latitude" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Longitude"></label>
+                            <input asp-for="Longitude" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features -->
+            <div class="card">
+                <h4><i class="fa-solid fa-star"></i> Features</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Internal"></label>
+                            <input asp-for="Internal" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="External"></label>
+                            <input asp-for="External" class="form-control" />
+                            <span asp-validation-for="External" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="General"></label>
+                            <input asp-for="General" class="form-control" />
+                            <span asp-validation-for="General" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Security"></label>
+                            <input asp-for="Security" class="form-control" />
+                            <span asp-validation-for="Security" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Location"></label>
+                            <input asp-for="Location" class="form-control" />
+                            <span asp-validation-for="Location" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="LifeStyle"></label>
+                            <input asp-for="LifeStyle" class="form-control" />
+                            <span asp-validation-for="LifeStyle" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Images -->
+            <div class="card">
+                <h4><i class="fa-solid fa-image"></i> Images</h4>
+                <div class="form-group">
+                    <label>Upload Images</label>
+                    <input type="file" name="ImageFiles" class="form-control" multiple accept="image/*" />
+                    <small class="text-muted">You can select multiple images (JPG, PNG, GIF, max 5MB each).</small>
+                </div>
+            </div>
+
+            <!-- Submit -->
+            <div class="form-group mt-3 text-center">
+                <input type="submit" value="💾 Save" class="btn btn-primary me-2" />
+                <a asp-action="Index" class="btn btn-secondary"><i class="fa-solid fa-xmark"></i> Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<link rel="stylesheet" href="~/css/property-edit.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

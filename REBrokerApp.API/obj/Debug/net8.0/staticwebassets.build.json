@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "nsWsOBBLfnb4mgKB3j4tu5VjFP14kFDJSTgpdUrWTPE=",
+  "Source": "REBrokerApp.API",
+  "BasePath": "_content/REBrokerApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

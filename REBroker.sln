@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REBrokerApp.Web", "REBrokerApp.MVC\REBrokerApp.Web.csproj", "{61B60A55-F481-4F21-833F-A6CF589A937C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REBrokerApp.Domain", "REBrokerApp.Domain\REBrokerApp.Domain.csproj", "{BEC3B87D-38B9-418D-9199-8124B421AD78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REBrokerApp.Infrastructure", "REBrokerApp.Infrastructure\REBrokerApp.Infrastructure.csproj", "{A5A51D43-8AA5-4410-BFF4-8C1072DA6EC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REBrokerApp.Business", "REBrokerApp.Business\REBrokerApp.Business.csproj", "{51A97208-88D6-42A4-8BA6-B9C0BBA47776}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REBrokerApp.API", "REBrokerApp.API\REBrokerApp.API.csproj", "{1084CF0B-0BF7-4A2B-A402-5252E345B5DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REBroker.Test", "REBroker.Test\REBroker.Test.csproj", "{A7223AC0-E22D-4735-A46A-07B31101AC2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61B60A55-F481-4F21-833F-A6CF589A937C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B60A55-F481-4F21-833F-A6CF589A937C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B60A55-F481-4F21-833F-A6CF589A937C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B60A55-F481-4F21-833F-A6CF589A937C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC3B87D-38B9-418D-9199-8124B421AD78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC3B87D-38B9-418D-9199-8124B421AD78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC3B87D-38B9-418D-9199-8124B421AD78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC3B87D-38B9-418D-9199-8124B421AD78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A51D43-8AA5-4410-BFF4-8C1072DA6EC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A51D43-8AA5-4410-BFF4-8C1072DA6EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A51D43-8AA5-4410-BFF4-8C1072DA6EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A51D43-8AA5-4410-BFF4-8C1072DA6EC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A97208-88D6-42A4-8BA6-B9C0BBA47776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A97208-88D6-42A4-8BA6-B9C0BBA47776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A97208-88D6-42A4-8BA6-B9C0BBA47776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A97208-88D6-42A4-8BA6-B9C0BBA47776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1084CF0B-0BF7-4A2B-A402-5252E345B5DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1084CF0B-0BF7-4A2B-A402-5252E345B5DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1084CF0B-0BF7-4A2B-A402-5252E345B5DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1084CF0B-0BF7-4A2B-A402-5252E345B5DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7223AC0-E22D-4735-A46A-07B31101AC2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7223AC0-E22D-4735-A46A-07B31101AC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7223AC0-E22D-4735-A46A-07B31101AC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7223AC0-E22D-4735-A46A-07B31101AC2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1864051-3800-4127-98C0-CD999EB032C4}
+	EndGlobalSection
+EndGlobal

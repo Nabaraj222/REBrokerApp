@@ -1,0 +1,56 @@
+﻿@model REBrokerApp.Domain.Entities.Property
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1><i class="fa-solid fa-trash-can"></i> Delete Property</h1>
+<h3><i class="fa-solid fa-triangle-exclamation"></i> Are you sure you want to delete this?</h3>
+
+<div class="delete-card">
+    <h4 class="mb-3"><i class="fa-solid fa-house"></i> Property Details</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Title)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Title)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Description)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Description)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.BedRooms)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.BedRooms)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.BathRooms)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.BathRooms)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Toilet)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Toilet)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.CarPark)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.CarPark)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Price)</dt>
+        <dd class="col-sm-9">$@Html.DisplayFor(model => model.Price)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.BuilderName)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.BuilderName)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.CreatedBy)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.CreatedBy)</dd>
+    </dl>
+
+    <div class="action-buttons">
+        <form asp-action="Delete" style="display:inline-block;">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-danger">
+                <i class="fa-solid fa-trash"></i> Confirm Delete
+            </button>
+        </form>
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="fa-solid fa-arrow-left"></i> Back to List
+        </a>
+    </div>
+</div>
+
+<link rel="stylesheet" href="~/css/property-delete.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
