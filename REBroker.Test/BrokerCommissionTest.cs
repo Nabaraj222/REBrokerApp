@@ -18,7 +18,7 @@ namespace REBroker.Test
             public void Setup()
             {
                 var options = new DbContextOptionsBuilder<ApplicationDbContext>()
-                    .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString()) // unique DB for each test
+                    .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString()) 
                     .Options;
 
                 _context = new ApplicationDbContext(options);

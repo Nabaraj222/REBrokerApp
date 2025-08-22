@@ -407,3 +407,8 @@ FodyWeavers.xsd
 *.db
 *.db-shm
 *.db-wal
+
+# Specifically ignore files in .vs, obj, and bin folders under Test projects
+Test*/**/.vs/
+Test*/**/[Bb]in/
+Test*/**/[Oo]bj/

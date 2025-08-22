@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("REBrokerApp.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5dfd73f13ef91e4889ae82b2f02dbbddc2dfa2ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f872dfaa3d7d9e7c6e548eb61863b089aea5de7a")]
 [assembly: System.Reflection.AssemblyProductAttribute("REBrokerApp.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("REBrokerApp.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

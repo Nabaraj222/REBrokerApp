@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1084CF0B-0BF7-4A2B-A402-5252E345B5DB}|REBrokerApp.API\\REBrokerApp.API.csproj|c:\\users\\lenovo\\desktop\\rebrokerapp\\rebrokerapp.api\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1084CF0B-0BF7-4A2B-A402-5252E345B5DB}|REBrokerApp.API\\REBrokerApp.API.csproj|solutionrelative:rebrokerapp.api\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7223AC0-E22D-4735-A46A-07B31101AC2E}|REBroker.Test\\REBroker.Test.csproj|c:\\users\\lenovo\\desktop\\rebrokerapp\\rebroker.test\\propertytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7223AC0-E22D-4735-A46A-07B31101AC2E}|REBroker.Test\\REBroker.Test.csproj|solutionrelative:rebroker.test\\propertytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A51D43-8AA5-4410-BFF4-8C1072DA6EC8}|REBrokerApp.Infrastructure\\REBrokerApp.Infrastructure.csproj|c:\\users\\lenovo\\desktop\\rebrokerapp\\rebrokerapp.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A51D43-8AA5-4410-BFF4-8C1072DA6EC8}|REBrokerApp.Infrastructure\\REBrokerApp.Infrastructure.csproj|solutionrelative:rebrokerapp.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51A97208-88D6-42A4-8BA6-B9C0BBA47776}|REBrokerApp.Business\\REBrokerApp.Business.csproj|c:\\users\\lenovo\\desktop\\rebrokerapp\\rebrokerapp.business\\services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51A97208-88D6-42A4-8BA6-B9C0BBA47776}|REBrokerApp.Business\\REBrokerApp.Business.csproj|solutionrelative:rebrokerapp.business\\services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61B60A55-F481-4F21-833F-A6CF589A937C}|REBrokerApp.MVC\\REBrokerApp.Web.csproj|c:\\users\\lenovo\\desktop\\rebrokerapp\\rebrokerapp.mvc\\controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61B60A55-F481-4F21-833F-A6CF589A937C}|REBrokerApp.MVC\\REBrokerApp.Web.csproj|solutionrelative:rebrokerapp.mvc\\controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7223AC0-E22D-4735-A46A-07B31101AC2E}|REBroker.Test\\REBroker.Test.csproj|c:\\users\\lenovo\\desktop\\rebrokerapp\\rebroker.test\\brokercommissiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7223AC0-E22D-4735-A46A-07B31101AC2E}|REBroker.Test\\REBroker.Test.csproj|solutionrelative:rebroker.test\\brokercommissiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEC3B87D-38B9-418D-9199-8124B421AD78}|REBrokerApp.Domain\\REBrokerApp.Domain.csproj|c:\\users\\lenovo\\desktop\\rebrokerapp\\rebrokerapp.domain\\entities\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEC3B87D-38B9-418D-9199-8124B421AD78}|REBrokerApp.Domain\\REBrokerApp.Domain.csproj|solutionrelative:rebrokerapp.domain\\entities\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1084CF0B-0BF7-4A2B-A402-5252E345B5DB}|REBrokerApp.API\\REBrokerApp.API.csproj|c:\\users\\lenovo\\desktop\\rebrokerapp\\rebrokerapp.api\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1084CF0B-0BF7-4A2B-A402-5252E345B5DB}|REBrokerApp.API\\REBrokerApp.API.csproj|solutionrelative:rebrokerapp.api\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51A97208-88D6-42A4-8BA6-B9C0BBA47776}|REBrokerApp.Business\\REBrokerApp.Business.csproj|c:\\users\\lenovo\\desktop\\rebrokerapp\\rebrokerapp.business\\services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51A97208-88D6-42A4-8BA6-B9C0BBA47776}|REBrokerApp.Business\\REBrokerApp.Business.csproj|solutionrelative:rebrokerapp.business\\services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEC3B87D-38B9-418D-9199-8124B421AD78}|REBrokerApp.Domain\\REBrokerApp.Domain.csproj|c:\\users\\lenovo\\desktop\\rebrokerapp\\rebrokerapp.domain\\entities\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC3B87D-38B9-418D-9199-8124B421AD78}|REBrokerApp.Domain\\REBrokerApp.Domain.csproj|solutionrelative:rebrokerapp.domain\\entities\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1084CF0B-0BF7-4A2B-A402-5252E345B5DB}|REBrokerApp.API\\REBrokerApp.API.csproj|c:\\users\\lenovo\\desktop\\rebrokerapp\\rebrokerapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -33,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{61B60A55-F481-4F21-833F-A6CF589A937C}|REBrokerApp.MVC\\REBrokerApp.Web.csproj|c:\\users\\lenovo\\desktop\\rebrokerapp\\rebrokerapp.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61B60A55-F481-4F21-833F-A6CF589A937C}|REBrokerApp.MVC\\REBrokerApp.Web.csproj|solutionrelative:rebrokerapp.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61B60A55-F481-4F21-833F-A6CF589A937C}|REBrokerApp.MVC\\REBrokerApp.Web.csproj|c:\\users\\lenovo\\desktop\\rebrokerapp\\rebrokerapp.mvc\\controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61B60A55-F481-4F21-833F-A6CF589A937C}|REBrokerApp.MVC\\REBrokerApp.Web.csproj|solutionrelative:rebrokerapp.mvc\\controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51A97208-88D6-42A4-8BA6-B9C0BBA47776}|REBrokerApp.Business\\REBrokerApp.Business.csproj|c:\\users\\lenovo\\desktop\\rebrokerapp\\rebrokerapp.business\\services\\ipropertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -105,10 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{51A97208-88D6-42A4-8BA6-B9C0BBA47776}|REBrokerApp.Business\\REBrokerApp.Business.csproj|c:\\users\\lenovo\\desktop\\rebrokerapp\\rebrokerapp.business\\viewmodel\\propertydetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51A97208-88D6-42A4-8BA6-B9C0BBA47776}|REBrokerApp.Business\\REBrokerApp.Business.csproj|solutionrelative:rebrokerapp.business\\viewmodel\\propertydetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5A51D43-8AA5-4410-BFF4-8C1072DA6EC8}|REBrokerApp.Infrastructure\\REBrokerApp.Infrastructure.csproj|c:\\users\\lenovo\\desktop\\rebrokerapp\\rebrokerapp.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5A51D43-8AA5-4410-BFF4-8C1072DA6EC8}|REBrokerApp.Infrastructure\\REBrokerApp.Infrastructure.csproj|solutionrelative:rebrokerapp.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEC3B87D-38B9-418D-9199-8124B421AD78}|REBrokerApp.Domain\\REBrokerApp.Domain.csproj|c:\\users\\lenovo\\desktop\\rebrokerapp\\rebrokerapp.domain\\entities\\brokercommisionsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -213,7 +217,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -261,55 +265,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "PropertyTest.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBroker.Test\\PropertyTest.cs",
+              "RelativeDocumentMoniker": "REBroker.Test\\PropertyTest.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBroker.Test\\PropertyTest.cs",
+              "RelativeToolTip": "REBroker.Test\\PropertyTest.cs",
+              "ViewState": "AgIAAFUBAAAAAAAAAAAUwGYBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T05:48:43.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BrokerCommissionTest.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBroker.Test\\BrokerCommissionTest.cs",
               "RelativeDocumentMoniker": "REBroker.Test\\BrokerCommissionTest.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBroker.Test\\BrokerCommissionTest.cs",
               "RelativeToolTip": "REBroker.Test\\BrokerCommissionTest.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwC0AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAEcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-21T15:09:54.458Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "PropertyService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Business\\Services\\PropertyService.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Business\\Services\\PropertyService.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Business\\Services\\PropertyService.cs",
               "RelativeToolTip": "REBrokerApp.Business\\Services\\PropertyService.cs",
-              "ViewState": "AgIAADIBAAAAAAAAAAAuwEEBAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAIIBAAAAAAAAAAAAwJ4BAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-21T11:59:16.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "PropertiesController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\Controllers\\PropertiesController.cs",
               "RelativeDocumentMoniker": "REBrokerApp.MVC\\Controllers\\PropertiesController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\Controllers\\PropertiesController.cs",
               "RelativeToolTip": "REBrokerApp.MVC\\Controllers\\PropertiesController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCUAAABhAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T16:32:34.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.API\\Program.cs",
-              "RelativeDocumentMoniker": "REBrokerApp.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.API\\Program.cs",
-              "RelativeToolTip": "REBrokerApp.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T17:02:50.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\Program.cs",
               "RelativeDocumentMoniker": "REBrokerApp.MVC\\Program.cs",
@@ -321,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "IPropertyService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Business\\Services\\IPropertyService.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Business\\Services\\IPropertyService.cs",
@@ -333,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.API\\appsettings.json",
               "RelativeDocumentMoniker": "REBrokerApp.API\\appsettings.json",
@@ -345,7 +350,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "REBrokerApp.Infrastructure\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "REBrokerApp.Infrastructure\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T15:08:09.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.API\\Program.cs",
+              "RelativeDocumentMoniker": "REBrokerApp.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.API\\Program.cs",
+              "RelativeToolTip": "REBrokerApp.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T17:02:50.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\appsettings.json",
               "RelativeDocumentMoniker": "REBrokerApp.MVC\\appsettings.json",
@@ -357,32 +386,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "PropertyController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.API\\Controllers\\PropertyController.cs",
               "RelativeDocumentMoniker": "REBrokerApp.API\\Controllers\\PropertyController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.API\\Controllers\\PropertyController.cs",
               "RelativeToolTip": "REBrokerApp.API\\Controllers\\PropertyController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwCgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T14:34:48.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T14:34:48.105Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Property.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\Entities\\Property.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Domain\\Entities\\Property.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\Entities\\Property.cs",
               "RelativeToolTip": "REBrokerApp.Domain\\Entities\\Property.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAIBQwCkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-21T09:34:50.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\Views\\Properties\\Delete.cshtml",
               "RelativeDocumentMoniker": "REBrokerApp.MVC\\Views\\Properties\\Delete.cshtml",
@@ -394,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "REBrokerApp.MVC\\Models\\ErrorViewModel.cs",
@@ -406,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\Views\\Properties\\Details.cshtml",
               "RelativeDocumentMoniker": "REBrokerApp.MVC\\Views\\Properties\\Details.cshtml",
@@ -418,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "REBrokerApp.MVC\\Controllers\\HomeController.cs",
@@ -430,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "PropertyDetailsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Business\\ViewModel\\PropertyDetailsViewModel.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Business\\ViewModel\\PropertyDetailsViewModel.cs",
@@ -442,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "REBrokerApp.MVC\\Views\\Dashboard\\Index.cshtml",
@@ -454,19 +482,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\Views\\Properties\\Edit.cshtml",
               "RelativeDocumentMoniker": "REBrokerApp.MVC\\Views\\Properties\\Edit.cshtml",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\Views\\Properties\\Edit.cshtml",
               "RelativeToolTip": "REBrokerApp.MVC\\Views\\Properties\\Edit.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAIBJwAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAIBZwAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-20T18:23:32.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "REBrokerApp.MVC\\Views\\Home\\Index.cshtml",
@@ -478,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "PropertyFeatureRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\Repositories\\PropertyFeatureRepository.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Infrastructure\\Repositories\\PropertyFeatureRepository.cs",
@@ -490,19 +518,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "DashboardService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Business\\Services\\DashboardService.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Business\\Services\\DashboardService.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Business\\Services\\DashboardService.cs",
               "RelativeToolTip": "REBrokerApp.Business\\Services\\DashboardService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwA4AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBZwA4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-21T13:24:39.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "REBrokerApp.MVC\\Controllers\\DashboardController.cs",
@@ -514,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\Views\\Properties\\Create.cshtml",
               "RelativeDocumentMoniker": "REBrokerApp.MVC\\Views\\Properties\\Create.cshtml",
@@ -526,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "IPropertyFeatureRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\Interfaces\\IPropertyFeatureRepository.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Domain\\Interfaces\\IPropertyFeatureRepository.cs",
@@ -538,19 +566,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\Views\\Properties\\Index.cshtml",
               "RelativeDocumentMoniker": "REBrokerApp.MVC\\Views\\Properties\\Index.cshtml",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\Views\\Properties\\Index.cshtml",
               "RelativeToolTip": "REBrokerApp.MVC\\Views\\Properties\\Index.cshtml",
-              "ViewState": "AgIAAJEAAAAAAAAAAIBJwJQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAIBZwJQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-20T18:23:43.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "20250821101658_commission percentage added.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\Migrations\\20250821101658_commission percentage added.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Infrastructure\\Migrations\\20250821101658_commission percentage added.cs",
@@ -562,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "20250821112629_Buyer Id added..cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\Migrations\\20250821112629_Buyer Id added..cs",
               "RelativeDocumentMoniker": "REBrokerApp.Infrastructure\\Migrations\\20250821112629_Buyer Id added..cs",
@@ -574,19 +602,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "PropertyViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Business\\ViewModel\\PropertyViewModel.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Business\\ViewModel\\PropertyViewModel.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Business\\ViewModel\\PropertyViewModel.cs",
               "RelativeToolTip": "REBrokerApp.Business\\ViewModel\\PropertyViewModel.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA5wB4AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wB4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T16:38:38.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "BrokerCommission.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\Entities\\BrokerCommission.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Domain\\Entities\\BrokerCommission.cs",
@@ -598,19 +626,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "BrokerCommisionSetup.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\Entities\\BrokerCommisionSetup.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Domain\\Entities\\BrokerCommisionSetup.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\Entities\\BrokerCommisionSetup.cs",
               "RelativeToolTip": "REBrokerApp.Domain\\Entities\\BrokerCommisionSetup.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAoAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-21T08:55:03.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "20250821091043_Broker commission table added..cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\Migrations\\20250821091043_Broker commission table added..cs",
               "RelativeDocumentMoniker": "REBrokerApp.Infrastructure\\Migrations\\20250821091043_Broker commission table added..cs",
@@ -622,7 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "20250821091356_Broker commission setup table added..cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\Migrations\\20250821091356_Broker commission setup table added..cs",
               "RelativeDocumentMoniker": "REBrokerApp.Infrastructure\\Migrations\\20250821091356_Broker commission setup table added..cs",
@@ -634,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "PropertyFeature.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\Entities\\PropertyFeature.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Domain\\Entities\\PropertyFeature.cs",
@@ -646,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "EntityBase.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\Entities\\EntityBase.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Domain\\Entities\\EntityBase.cs",
@@ -658,19 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "REBrokerApp.Infrastructure\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\ApplicationDbContext.cs",
-              "RelativeToolTip": "REBrokerApp.Infrastructure\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAowBcAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T15:08:09.627Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "IRepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\Interfaces\\IRepositoryBase.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Domain\\Interfaces\\IRepositoryBase.cs",
@@ -682,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "PropertyImage.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\Entities\\PropertyImage.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Domain\\Entities\\PropertyImage.cs",
@@ -694,19 +710,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "PropertyLocation.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\Entities\\PropertyLocation.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Domain\\Entities\\PropertyLocation.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\Entities\\PropertyLocation.cs",
               "RelativeToolTip": "REBrokerApp.Domain\\Entities\\PropertyLocation.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAIBQwCMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwCMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T15:59:32.376Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "FileSizeExtension.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\Extensions\\FileSizeExtension.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Infrastructure\\Extensions\\FileSizeExtension.cs",
@@ -718,7 +734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "20250820183726_Property and realated table added..cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\Migrations\\20250820183726_Property and realated table added..cs",
               "RelativeDocumentMoniker": "REBrokerApp.Infrastructure\\Migrations\\20250820183726_Property and realated table added..cs",
@@ -730,7 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "ApiResponse.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\ApiResponse.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Infrastructure\\ApiResponse.cs",
@@ -742,7 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "APIKeyMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.API\\APIKeyMiddleware.cs",
               "RelativeDocumentMoniker": "REBrokerApp.API\\APIKeyMiddleware.cs",
@@ -754,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "PropertyImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\Repositories\\PropertyImageRepository.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Infrastructure\\Repositories\\PropertyImageRepository.cs",
@@ -766,7 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "IPropertyImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\Interfaces\\IPropertyImageRepository.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Domain\\Interfaces\\IPropertyImageRepository.cs",
@@ -778,7 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "PropertyRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\Repositories\\PropertyRepository.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Infrastructure\\Repositories\\PropertyRepository.cs",
@@ -790,7 +806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "IPropertyRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\Interfaces\\IPropertyRepository.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Domain\\Interfaces\\IPropertyRepository.cs",
@@ -802,7 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "20250820162819_Property and realated table added..cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Infrastructure\\Migrations\\20250820162819_Property and realated table added..cs",
               "RelativeDocumentMoniker": "..\\New folder\\REBrokerApp\\REBrokerApp\\REBrokerApp.Infrastructure\\Migrations\\20250820162819_Property and realated table added..cs",
@@ -813,7 +829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "RepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\Repositories\\RepositoryBase.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Infrastructure\\Repositories\\RepositoryBase.cs",
@@ -825,7 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "PropertyStatus.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\Enums\\PropertyStatus.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Domain\\Enums\\PropertyStatus.cs",
@@ -837,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "ApplicationConstants.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Infrastructure\\ApplicationConstants\\ApplicationConstants.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Infrastructure\\ApplicationConstants\\ApplicationConstants.cs",
@@ -849,7 +865,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "UserType.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.Domain\\Enums\\UserType.cs",
               "RelativeDocumentMoniker": "REBrokerApp.Domain\\Enums\\UserType.cs",
@@ -861,7 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "REBrokerApp.Web.csproj",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\REBrokerApp\\REBrokerApp.MVC\\REBrokerApp.Web.csproj",
               "RelativeDocumentMoniker": "REBrokerApp.MVC\\REBrokerApp.Web.csproj",
