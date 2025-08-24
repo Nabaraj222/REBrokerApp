@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 namespace REBrokerApp.Business.ViewModel
 {
     public class DashboardViewModel

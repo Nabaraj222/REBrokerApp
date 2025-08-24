@@ -1,8 +1,6 @@
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using REBrokerApp.API;
 using REBrokerApp.Business.Services;
-using Microsoft.Extensions.Caching.Memory;
 using REBrokerApp.Domain.Interfaces;
 using REBrokerApp.Infrastructure.ApplicationConstants;
 using REBrokerApp.Infrastructure.Repositories;
@@ -13,10 +11,8 @@ var connectionString = builder.Configuration.GetConnectionString(ApplicationCons
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

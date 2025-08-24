@@ -3,7 +3,6 @@ using Microsoft.Extensions.Caching.Memory;
 using REBrokerApp.Business.Services;
 using REBrokerApp.Domain.Entities;
 using REBrokerApp.Infrastructure;
-using System.Collections.Generic;
 
 namespace REBrokerApp.API.Controllers
 {
@@ -23,7 +22,7 @@ namespace REBrokerApp.API.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            // Try to get available properties from cache
+            // get available properties from cache
             if (!_memoryCache.TryGetValue(AvailablePropertiesCacheKey, out IEnumerable<Property> properties))
             {
                 // Cache miss, get data from service

@@ -1,6 +1,4 @@
-﻿using REBrokerApp.Domain.Enums;
-
-namespace REBrokerApp.Business.ViewModel
+﻿namespace REBrokerApp.Business.ViewModel
 {
     public class PropertyDetailsViewModel
     {

@@ -15,7 +15,7 @@ namespace REBrokerApp.API
 
         public async Task InvokeAsync(HttpContext context, IConfiguration configuration)
         {
-            // Skip validation for Swagger/development endpoints
+            // Skip validation for Swagger
             if (context.Request.Path.StartsWithSegments("/swagger"))
             {
                 await _next(context);

@@ -49,18 +49,14 @@ namespace REBrokerApp.Business.Services
         /// </summary>
         Task<bool> DeletePropertyAsync(int id);
 
-    /// <summary>
-    /// Check if a property exists
-    /// </summary>
-    Task<bool> PropertyExistsAsync(int id);
 
-    /// <summary>
-    /// Search for properties by location and price range
-    /// </summary>
-    /// <param name="location">Location search term (suburb or state)</param>
-    /// <param name="minPrice">Minimum price</param>
-    /// <param name="maxPrice">Maximum price</param>
-    /// <returns>Collection of properties matching the search criteria</returns>
-    Task<IEnumerable<Property>> SearchPropertiesAsync(string? location, decimal? minPrice, decimal? maxPrice);
+        /// <summary>
+        /// Search for properties by location and price range
+        /// </summary>
+        /// <param name="location">Location search term (suburb or state)</param>
+        /// <param name="minPrice">Minimum price</param>
+        /// <param name="maxPrice">Maximum price</param>
+        /// <returns>Collection of properties matching the search criteria</returns>
+        Task<IEnumerable<Property>> SearchPropertiesAsync(string? location, decimal? minPrice, decimal? maxPrice);
     }
 }

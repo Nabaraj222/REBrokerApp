@@ -6,7 +6,7 @@ using REBrokerApp.Web.Data;
 namespace REBrokerApp.Business.Services
 {
     /// <summary>
-    /// Implementation of property management service
+    /// Property Service implementations
     /// </summary>
     public class PropertyService : IPropertyService
     {
@@ -17,7 +17,10 @@ namespace REBrokerApp.Business.Services
             _context = context;
         }
 
-        /// <inheritdoc />
+        /// <summary>
+        /// Get all available properties
+        /// </summary>
+        /// <returns></returns>
         public async Task<IEnumerable<Property>> GetAvailablePropertiesAsync()
         {
             return await _context.Properties
@@ -25,7 +28,12 @@ namespace REBrokerApp.Business.Services
                 .ToListAsync();
         }
 
-        /// <inheritdoc />
+        /// <summary>
+        /// Get property by ID with related data
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="includeRelated"></param>
+        /// <returns></returns>
         public async Task<Property?> GetPropertyByIdAsync(int id, bool includeRelated = true)
         {
             if (!includeRelated)
@@ -40,7 +48,11 @@ namespace REBrokerApp.Business.Services
                 .FirstOrDefaultAsync(p => p.Id == id);
         }
 
-        /// <inheritdoc />
+        /// <summary>
+        /// Map property entity to details view model
+        /// </summary>
+        /// <param name="property"></param>
+        /// <returns></returns>
         public PropertyDetailsViewModel MapToDetailsViewModel(Property property)
         {
             return new PropertyDetailsViewModel
@@ -84,7 +96,12 @@ namespace REBrokerApp.Business.Services
             };
         }
 
-        /// <inheritdoc />
+        /// <summary>
+        /// Create a new property with related data
+        /// </summary>
+        /// <param name="model"></param>
+        /// <param name="userName"></param>
+        /// <returns></returns>
         public async Task<Property> CreatePropertyAsync(PropertyCreateViewModel model, string userName)
         {
             // Create Property
@@ -165,7 +182,13 @@ namespace REBrokerApp.Business.Services
             return property;
         }
 
-        /// <inheritdoc />
+        /// <summary>
+        /// Update an existing property with related data
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="model"></param>
+        /// <param name="userName"></param>
+        /// <returns></returns>
         public async Task<bool> UpdatePropertyAsync(int id, PropertyCreateViewModel model, string userName)
         {
             // Get existing property with related entities
@@ -248,7 +271,7 @@ namespace REBrokerApp.Business.Services
                 _context.PropertyFeature.Add(features);
             }
 
-            // Handle Images (1:many)
+            // (1:many)
             if (model.ImageFiles != null && model.ImageFiles.Count > 0)
             {
                 foreach (var file in model.ImageFiles)
@@ -276,17 +299,18 @@ namespace REBrokerApp.Business.Services
                 await _context.SaveChangesAsync();
                 return true;
             }
-            catch (DbUpdateConcurrencyException)
+            catch (DbUpdateConcurrencyException ex)
             {
-                if (!await PropertyExistsAsync(property.Id))
-                {
-                    return false;
-                }
-                throw;
+                return false;
             }
         }
 
-        /// <inheritdoc />
+        /// <summary>
+        /// Buy a property by changing its status to Sold and calculating broker commission
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="buyerUserName"></param>
+        /// <returns></returns>
         public async Task<bool> BuyPropertyAsync(int id, string buyerUserName)
         {
             var property = await _context.Properties.FindAsync(id);
@@ -318,7 +342,11 @@ namespace REBrokerApp.Business.Services
             return true;
         }
 
-        /// <inheritdoc />
+        /// <summary>
+        /// Calculate broker commission based on property price and commission setup
+        /// </summary>
+        /// <param name="property"></param>
+        /// <returns></returns>
         public async Task<BrokerCommission?> CalculateBrokerCommissionAsync(Property property)
         {
             // 1. Find the broker user ID from the property's CreatedBy field
@@ -357,7 +385,11 @@ namespace REBrokerApp.Business.Services
             };
         }
 
-        /// <inheritdoc />
+        /// <summary>
+        /// Delete a property by ID
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public async Task<bool> DeletePropertyAsync(int id)
         {
             var property = await _context.Properties.FindAsync(id);
@@ -371,13 +403,13 @@ namespace REBrokerApp.Business.Services
             return true;
         }
 
-        /// <inheritdoc />
-        public async Task<bool> PropertyExistsAsync(int id)
-        {
-            return await _context.Properties.AnyAsync(e => e.Id == id);
-        }
-
-        /// <inheritdoc />
+        /// <summary>
+        /// Search properties based on location and price range
+        /// </summary>
+        /// <param name="location"></param>
+        /// <param name="minPrice"></param>
+        /// <param name="maxPrice"></param>
+        /// <returns></returns>
         public async Task<IEnumerable<Property>> SearchPropertiesAsync(string? location, decimal? minPrice, decimal? maxPrice)
         {
             // Start with a query for available properties

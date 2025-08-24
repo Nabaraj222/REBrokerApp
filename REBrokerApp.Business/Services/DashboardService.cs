@@ -1,8 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using REBrokerApp.Business.ViewModel;
-using REBrokerApp.Domain.Entities;
 using REBrokerApp.Domain.Enums;
-using REBrokerApp.Infrastructure;
 using REBrokerApp.Web.Data;
 
 namespace REBrokerApp.Business.Services
@@ -19,7 +17,11 @@ namespace REBrokerApp.Business.Services
             _context = context;
         }
 
-        /// <inheritdoc />
+        /// <summary>
+        /// Get dashboard data for a broker user
+        /// </summary>
+        /// <param name="userName"></param>
+        /// <returns></returns>
         public async Task<DashboardViewModel> GetBrokerDashboardAsync(string userName)
         {
             var dashboard = new DashboardViewModel
@@ -33,7 +35,11 @@ namespace REBrokerApp.Business.Services
             return dashboard;
         }
 
-        /// <inheritdoc />
+        /// <summary>
+        /// Get the count of properties sold by a specific broker
+        /// </summary>
+        /// <param name="userName"></param>
+        /// <returns></returns>
         public async Task<int> GetBrokerSoldPropertiesCountAsync(string userName)
         {
             return await _context.Properties
@@ -41,7 +47,10 @@ namespace REBrokerApp.Business.Services
                 .CountAsync();
         }
 
-        /// <inheritdoc />
+        /// <summary>
+        /// Get the count of all available properties
+        /// </summary>
+        /// <returns></returns>
         public async Task<int> GetAvailablePropertiesCountAsync()
         {
             return await _context.Properties
@@ -49,7 +58,11 @@ namespace REBrokerApp.Business.Services
                 .CountAsync();
         }
 
-        /// <inheritdoc />
+        /// <summary>
+        /// Get the total commission earned by a broker
+        /// </summary>
+        /// <param name="userName"></param>
+        /// <returns></returns>
         public async Task<decimal> GetBrokerTotalCommissionAsync(string userName)
         {
             // Find user by username
@@ -66,7 +79,12 @@ namespace REBrokerApp.Business.Services
                 .SumAsync(c => c.CommissionAmount);
         }
 
-        /// <inheritdoc />
+        /// <summary>
+        /// Get recent commission transactions for a broker
+        /// </summary>
+        /// <param name="userName"></param>
+        /// <param name="count"></param>
+        /// <returns></returns>
         public async Task<List<CommissionItemViewModel>> GetBrokerRecentCommissionsAsync(string userName, int count = 5)
         {
             // Find user by username
