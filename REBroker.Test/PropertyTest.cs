@@ -1,13 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Moq;
-using NUnit.Framework;
 using REBrokerApp.Business.Services;
 using REBrokerApp.Business.ViewModel;
 using REBrokerApp.Domain.Entities;
@@ -50,8 +44,8 @@ namespace REBroker.Test
             // Arrange
             _context.Properties.AddRange(new List<Property>
             {
-                new Property { Id = 1, Description = "Nice", Title = "Available Prop", PropertyStatus = PropertyStatus.Available },
-                new Property { Id = 2,Description = "Nice", Title = "Sold Prop", PropertyStatus = PropertyStatus.Sold }
+                new Property { Id = 1, Description = "Nice", Title = "Available Prop", PropertyStatus = PropertyStatus.Available, BrokerName = "Broker1", BrokerPhone = "0123456789" },
+                new Property { Id = 2,Description = "Nice", Title = "Sold Prop", PropertyStatus = PropertyStatus.Sold, BrokerName = "Broker1", BrokerPhone = "0123456789" }
             });
             await _context.SaveChangesAsync();
 
@@ -73,8 +67,10 @@ namespace REBroker.Test
                 Id = 1,
                 Title = "Test Property",
                 Description = "Nice Property",
+                BrokerName = "Broker1",
+                BrokerPhone = "0123456789",
                 PropertyLocation = new PropertyLocation { Address1 = "123 Main St" },
-                PropertyFeature = new PropertyFeature { Internal = "AC, Heating" },
+                PropertyFeature = new PropertyFeature { Internal = "AC, Heating", External = "Extenal Description", General = "General Descripiton", LifeStyle = "Lifestyle Description", Location = "Location Description", Security = "Good." },
                 PropertyImages = new List<PropertyImage>
                 {
                     new PropertyImage
@@ -107,7 +103,7 @@ namespace REBroker.Test
         public async Task GetPropertyByIdAsync_WithoutInclude_ReturnsPropertyOnly()
         {
             // Arrange
-            var property = new Property { Id = 1, Title = "Simple Prop", Description = "Basic property" };
+            var property = new Property { Id = 1, Title = "Simple Prop", Description = "Basic property", BrokerName = "Broker1", BrokerPhone = "0987654321" };
             _context.Properties.Add(property);
             await _context.SaveChangesAsync();
 
@@ -117,7 +113,7 @@ namespace REBroker.Test
             // Assert
             Assert.IsNotNull(result);
             Assert.That(result.Id, Is.EqualTo(1));
-            Assert.IsNull(result.PropertyLocation); // Should not be loaded
+            Assert.IsNull(result.PropertyLocation);
             Assert.IsNull(result.PropertyFeature);
             Assert.IsEmpty(result.PropertyImages);
         }
@@ -265,11 +261,14 @@ namespace REBroker.Test
         {
             // Arrange
             var brokerUser = new IdentityUser { Id = "broker1", UserName = "broker1" };
+            var buyerUser = new IdentityUser { Id = "buyer1", UserName = "buyer1" };
             var property = new Property
             {
                 Id = 1,
                 Title = "Test Property",
                 Description = "Nice Property",
+                BrokerName = "Broker One",
+                BrokerPhone = "123456789",
                 Price = 500000,
                 PropertyStatus = PropertyStatus.Available,
                 CreatedBy = brokerUser.UserName
@@ -283,6 +282,7 @@ namespace REBroker.Test
             };
 
             _context.Users.Add(brokerUser);
+            _context.Users.Add(buyerUser);
             _context.Properties.Add(property);
             _context.BrokerCommisionSetups.Add(commissionSetup);
             await _context.SaveChangesAsync();
@@ -309,7 +309,7 @@ namespace REBroker.Test
         public async Task DeletePropertyAsync_RemovesPropertyIfExists()
         {
             // Arrange
-            var property = new Property { Id = 1, Title = "To Delete", Description = "Will be removed" };
+            var property = new Property { Id = 1, Title = "To Delete", Description = "Will be removed", BrokerName = "Broker1", BrokerPhone = "0123456789" };
             _context.Properties.Add(property);
             await _context.SaveChangesAsync();
 
@@ -332,7 +332,7 @@ namespace REBroker.Test
                 {
                     Id = 1,
                     Title = "Sydney House",Description = "Nice",
-                    Price = 450000,
+                    Price = 450000, BrokerName = "Broker1", BrokerPhone = "0123456789",
                     PropertyStatus = PropertyStatus.Available,
                     PropertyLocation = new PropertyLocation { Suburb = "Sydney", State = "NSW" }
                 },
@@ -340,7 +340,7 @@ namespace REBroker.Test
                 {
                     Id = 2,
                     Title = "Melbourne Unit",Description = "Nice",
-                    Price = 600000,
+                    Price = 600000, BrokerName = "Broker1", BrokerPhone = "0123456789",
                     PropertyStatus = PropertyStatus.Available,
                     PropertyLocation = new PropertyLocation { Suburb = "Melbourne", State = "VIC" }
                 }

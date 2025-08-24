@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("REBroker.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f872dfaa3d7d9e7c6e548eb61863b089aea5de7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5ebde60577f9718b9993b366ffcf00b885a2dba")]
 [assembly: System.Reflection.AssemblyProductAttribute("REBroker.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("REBroker.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
